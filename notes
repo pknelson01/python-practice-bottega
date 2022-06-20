@@ -1,0 +1,11 @@
+"""
+use this in terminal: python3 code-along.py
+"""
+"""
+List : []
+Dictionary: {}
+Tuple: ()
+"""
+"""
+for sets, there cant be any duplicates, if you put two of the same value, it will only return one.
+"""
