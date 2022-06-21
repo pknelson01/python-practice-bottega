@@ -24,8 +24,23 @@
 
     # print (winner)
 
+# Greeting Function
 
+    # def greeting(time_of_day, *args, **kwargs):
+    #     print(f"Hello there {' '.join(args)}, I hope that you are having a great {time_of_day}.")
 
+    #     if kwargs:
+    #         print('Your tasks for the day are:')
+    #         for key, val in kwargs.items():
+    #             print(f"{key} => {val}")
+
+    # greeting(
+    #     'Morning',
+    #     'Parker', 'Nelson',
+    #     first = 'Empty dishwasher.',
+    #     second = 'Let the dogs out.',
+    #     third = 'Coding exercises.'
+    # )
 
 
 
