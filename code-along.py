@@ -1076,11 +1076,42 @@ use this in terminal: python3 code-along.py
     # else:
     #     print('You \'CANNOT\' access the admin dashboard.')
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# Basic Syntax for Creating Python Functions (after un-commenting code below, fix the indentation or code wont run)
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+    # def full_name(first, last):
+    #     print(f'{first} {last}')
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+    # full_name('Parker', 'Nelson')
+    # full_name('Michael', 'Nelson')
+
+    # def auth(email, password):
+    #     if email == 'pk.elliott11@gmail.com' and password == 'SeCrEt':
+    #             print ('Authorized')
+    #     else:
+    #         print ('Not Authorized')
+    # auth('pk.elliott11@gmail.com', 'SeCrEt')
+
+    # def counter(max_value):
+    #     for num in range(1, max_value):
+    #         print(num)
+
+    # counter(501)
+
+# What Does it Mean to Return a Value from a Python Function? (after un-commenting code below, fix the indentation or code wont run)
+
+    # def full_name(first, last):
+    #     return (f'{first} {last}')
+
+    # parker = full_name('Parker', 'Nelson')
+
+    # def greeting(name):
+    #     print(f'Hello there {name}!')
+
+    # greeting(parker)
+
+# How to Nest Functions in Parent Functions in Python (after un-commenting code below, fix the indentation or code wont run)
+
+
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
