@@ -581,17 +581,12 @@ Tuple: ()
 # }
 
 
+def counter(initial_count = 0):
+    initial_count += 1
+    print (f'The count is {initial_count}')
+    return initial_count
 
-def sum_two_num(num_one, num_two):
-    return num_one + num_two
-
-def total(num_one, num_two):
-    print(f'the total is {total}')
-
-total(8, 11)
-
-
-
+counter()
 
 
 
