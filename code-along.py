@@ -1121,9 +1121,28 @@ use this in terminal: python3 code-along.py
 
 # Guide to Default Arguments in Python Functions (after un-commenting code below, fix the indentation or code wont run)
 
+    # basically the point of the video is to say that you should not set the default value as a list
+
+    # # def greeting(name = 'Guest User'):
+    # #     print(f'Hello there, {name}!')
+
+    # # greeting()
+    # # greeting('Parker')
+
+    # def some_function(collection = []):
+    #     collection.append(1)
+    #     print (id(collection))
+    #     return collection
+
+    # print (some_function())
+
+    # # other part of program
+
+    # print(some_function()) # [1]
+
+# How to Utilize Named Function Arguments in Python (after un-commenting code below, fix the indentation or code wont run)
 
 
-#  (after un-commenting code below, fix the indentation or code wont run)
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
