@@ -1259,7 +1259,9 @@ from functools import reduce
 def manual_exponent(my_list, num):
     for num in my_list: x ** y 
 
-my_list = []
+my_list = [3, 7]
+
+print(reduce(lambda x,y: x ** y, my_list))
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
