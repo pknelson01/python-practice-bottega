@@ -508,82 +508,87 @@ Tuple: ()
     # x
     # """
 
-num = 50
-sum = 0
+# num = 50
+# sum = 0
 
-while num > 0:
-    sum += num
-    num -= 1
-print("the sum is ", sum)
-
-
-
-sports = [
-    'basketball',
-    'soccer',
-    'football',
-    'volleyball'
-]
-
-for x in sports:
-    if x == 'basketball':
-        print(f'{x} is the best sport')
-    print (x)
+# while num > 0:
+#     sum += num
+#     num -= 1
+# print("the sum is ", sum)
 
 
 
-num_list = range(1, 12)
-sq_num = []
+# sports = [
+#     'basketball',
+#     'soccer',
+#     'football',
+#     'volleyball'
+# ]
 
-for x in num_list:
-    sq_num.append(x ** 2)
-
-
-
-print (sq_num)
-
-x = 56.89
-
-i = True if x == 56.89 else False
-
-print (i)
+# for x in sports:
+#     if x == 'basketball':
+#         print(f'{x} is the best sport')
+#     print (x)
 
 
 
-value = 'priceless'
+# num_list = range(1, 12)
+# sq_num = []
 
-iPhone = True if value == '$1200' else False
-
-print (iPhone)
-
-
-
-name = 'Parker'
-
-winner = f'{name} is the winner' if name == 'Parker' else '{name} is not the winner'
-
-print (winner)
+# for x in num_list:
+#     sq_num.append(x ** 2)
 
 
 
-import numpy as np
+# print (sq_num)
 
-def weighted_answers(weights):
-    container = []
+# x = 56.89
 
-    for (name, weight) in answers.items():
-        for _ in range(answers):
-            container.append(name)
+# i = True if x == 56.89 else False
 
-answers = {
-    'yes': 1,
-    'no': 1,
-}
-
-print (weighted_answers(answers))
+# print (i)
 
 
 
+# value = 'priceless'
+
+# iPhone = True if value == '$1200' else False
+
+# print (iPhone)
+
+
+
+# name = 'Parker'
+
+# winner = f'{name} is the winner' if name == 'Parker' else '{name} is not the winner'
+
+# print (winner)
+
+
+
+# import numpy as np
+
+# def weighted_answers(weights):
+#     container = []
+
+#     for (name, weight) in answers.items():
+#         for _ in range(answers):
+#             container.append(name)
+
+# answers = {
+#     'yes': 1,
+#     'no': 1,
+# }
+
+
+
+def sum_two_num(num_one, num_two):
+    return num_one + num_two
+
+def total(num_one, num_two):
+    print(f'the total is {total}')
+
+total(8, 11)
 
 
 

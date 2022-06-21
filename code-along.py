@@ -1111,9 +1111,17 @@ use this in terminal: python3 code-along.py
 
 # How to Nest Functions in Parent Functions in Python (after un-commenting code below, fix the indentation or code wont run)
 
+    # def greeting(first, last):
+    #     def full_name():
+    #         return f'{first} {last}'
+
+    #     print(f'Hello there {full_name()}!')
+
+    # greeting('Parker', 'Nelson')
+
+# Guide to Default Arguments in Python Functions (after un-commenting code below, fix the indentation or code wont run)
 
 
-#  (after un-commenting code below, fix the indentation or code wont run)
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
