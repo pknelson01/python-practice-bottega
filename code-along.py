@@ -1142,13 +1142,33 @@ use this in terminal: python3 code-along.py
 
 # How to Utilize Named Function Arguments in Python (after un-commenting code below, fix the indentation or code wont run)
 
+    # def full_name(first, last):
+    #     print(f'Hello, {first} {last}')
+
+    # full_name(first = 'Parker', last = 'Nelson')
+
+# Guide to Function Argument Unpacking in Python (after un-commenting code below, fix the indentation or code wont run)
+
+    # def greeting(tod, *args):
+    #     print (f"Hi, {' '.join(args)}, I hope you are having a good {tod}.")
+    #     # print(args)
+
+    # greeting('morning', 'Parker', 'Nelson')
+    # greeting('afternoon', 'Parker', 'E', 'Nelson')
+
+# Overview of Keyword Arguments in Python Functions (after un-commenting code below, fix the indentation or code wont run)
+
+    # def greeting(**kwargs):
+    #     if kwargs:
+    #         print(f"Hello there, {kwargs['first_name']} {kwargs['last_name']}")
+    #     else:
+    #         print (f"Hi guest, have a great day!")
+
+    # greeting (first_name = 'Parker', last_name = 'Nelson')
+
+# How to Combine All Argument Types in a Single Python Function (after un-commenting code below, fix the indentation or code wont run)
 
 
-#  (after un-commenting code below, fix the indentation or code wont run)
-
-#  (after un-commenting code below, fix the indentation or code wont run)
-
-#  (after un-commenting code below, fix the indentation or code wont run)
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 

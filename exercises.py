@@ -581,13 +581,12 @@ Tuple: ()
 # }
 
 
-def counter(initial_count = 0):
-    initial_count += 1
-    print (f'The count is {initial_count}')
-    return initial_count
+# def counter(initial_count = 0):
+#     initial_count += 1
+#     print (f'The count is {initial_count}')
+#     return initial_count
 
-counter()
-
+# counter()
 
 
 
