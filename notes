@@ -10,6 +10,5 @@ Tuple: ()
 for sets, there cant be any duplicates, if you put two of the same value, it will only return one.
 """
 """
-args returns a tuple (which is immutable)
-kwargs returns a dictionary
+args returns a tuple (which is immutable) and kwargs returns a dictionary
 """
