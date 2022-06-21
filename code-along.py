@@ -1186,7 +1186,90 @@ use this in terminal: python3 code-along.py
 
 # Guide to Python Lambdas (after un-commenting code below, fix the indentation or code wont run)
 
+    # full_name = lambda first, last: f'{first} {last}'
 
+    # # print(full_name('Parker', 'Nelson'))
+
+    # def greeting(name):
+    #     print(f'Hello there {name}')
+
+    # greeting(full_name('Parker', 'Nelson'))
+
+# Project Requirements: Build FizzBuzz in Python (after un-commenting code below, fix the indentation or code wont run)
+
+    # """ 
+    # write a program that prints out the numbers from 1-100 but for every multiple of 3, print fizz instead, every multiple of 5 print buzz, and for a multiple of both 3 and 5 print fizzbuzz
+
+    # - Function
+    # - Looping
+    # - Conditionals
+    # - Math operators
+    # """
+
+    # def buzz(max_num):
+    #     for num in range(1, max_num + 1):
+    #         if num % 3 == 0:
+    #             print('fizz')
+    #         elif num % 5 == 0:
+    #             print('buzz')
+    #         elif num % 5 == 0 and num % 3 == 0:
+    #             print('fizzbuzz')
+    #         else:
+    #             print(num)
+
+    # buzz(100)
+
+# Build a Dynamic Reducer in Python (after un-commenting code below, fix the indentation or code wont run)
+    # """ 
+    # dynamic reducer([1, 2, 3], '+') # 6 (the sum of all the values)
+    # dynamic reducer([1, 2, 3], '-') # -
+    # dynamic reducer([1, 2, 3], '*') # 6
+    # dynamic reducer([1, 2, 3], '/') # -
+    # """
+
+    # import operator
+    # from functools import reduce
+
+    # def dynamic_reducer(my_list, op):
+    #     operators = {
+    #         "+": operator.add,
+    #         "-": operator.sub,
+    #         "*": operator.mul,
+    #         "/": operator.truediv,
+    #     }
+    #     return reduce((lambda total, element: operators[op](total, element)), my_list)
+
+    # # print(reduce(lambda x, y: x+y, my_list))
+    # # print(reduce(lambda x, y: x-y, my_list))
+    # # print(reduce(lambda x, y: x*y, my_list))
+    # # print(reduce(lambda x, y: x/y, my_list))
+
+    # print(dynamic_reducer([1, 2, 3], '+'))
+    # print(dynamic_reducer([11, 12, 13], '-'))
+    # print(dynamic_reducer([21, 22, 23], '*'))
+    # print(dynamic_reducer([31, 32, 33], '/'))
+
+# Manual Exponent (after un-commenting code below, fix the indentation or code wont run)
+""" 
+manual exponent(2, 3) => 8
+manual exponent(10, 2) => 100
+"""
+from functools import reduce
+
+def manual_exponent(my_list, num):
+    for num in my_list: x ** y 
+
+my_list = []
+
+#  (after un-commenting code below, fix the indentation or code wont run)
+
+#  (after un-commenting code below, fix the indentation or code wont run)
+
+#  (after un-commenting code below, fix the indentation or code wont run)
+
+#  (after un-commenting code below, fix the indentation or code wont run)
+
+#  (after un-commenting code below, fix the indentation or code wont run)
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 

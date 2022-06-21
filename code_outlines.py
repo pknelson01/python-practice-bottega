@@ -42,7 +42,39 @@
     #     third = 'Coding exercises.'
     # )
 
+# fizzbuzz
 
+    # def buzz(max_num):
+    #     for num in range(1, max_num + 1):
+    #         if num % 3 == 0:
+    #             print('fizz')
+    #         elif num % 5 == 0:
+    #             print('buzz')
+    #         elif num % 5 == 0 and num % 3 == 0:
+    #             print('fizzbuzz')
+    #         else:
+    #             print(num)
+
+    # buzz(100)
+
+# Dynamic Reducer (list of values being +, -, *, / by / to eachother)
+
+import operator
+from functools import reduce
+
+def dynamic_reducer(my_list, op):
+    operators = {
+        "+": operator.add,
+        "-": operator.sub,
+        "*": operator.mul,
+        "/": operator.truediv,
+    }
+    return reduce((lambda total, element: operators[op](total, element)), my_list)
+
+print (dynamic_reducer([1, 2, 3], '+'))
+print (dynamic_reducer([11, 12, 13], '-'))
+print (dynamic_reducer([21, 22, 23], '*'))
+print (dynamic_reducer([31, 32, 33], '/'))
 
 
 
