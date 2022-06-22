@@ -1,12 +1,21 @@
-""" 
-manual exponent(2, 3) => 8
-manual exponent(10, 2) => 100
-"""
-from functools import reduce
+# manual exponent
+    # """ 
+    # manual exponent(2, 3) => 8
+    # manual exponent(10, 2) => 100
+    # """
+    # from functools import reduce
 
-def manual_exponent(my_list, num):
-    for num in my_list: x ** y 
+    # print('Input number')
 
-my_list = [3, 7]
+    # a = int(input())
 
-print(reduce(lambda x,y: x ** y, my_list))
+    # print('Input exponent value')
+
+    # b = int(input())
+
+    # my_list = [a, b]
+
+    # def manual_exponent(my_list, num):
+    #     for num in my_list: x ** y
+
+    # print(reduce(lambda x,y: x ** y, my_list))
