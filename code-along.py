@@ -1250,20 +1250,44 @@ use this in terminal: python3 code-along.py
     # print(dynamic_reducer([31, 32, 33], '/'))
 
 # Manual Exponent (after un-commenting code below, fix the indentation or code wont run)
-""" 
-manual exponent(2, 3) => 8
-manual exponent(10, 2) => 100
-"""
-from functools import reduce
+        # """ 
+        # manual exponent(2, 3) => 8
+        # manual exponent(10, 2) => 100
+        # """
+        # from functools import reduce
 
-def manual_exponent(my_list, num):
-    for num in my_list: x ** y 
+        # def manual_exponent(my_list, num):
+        #     for num in my_list: x ** y 
 
-my_list = [3, 7]
+        # my_list = [3, 7]
 
-print(reduce(lambda x,y: x ** y, my_list))
+        # print(reduce(lambda x,y: x ** y, my_list))
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# Remove the First and Last Element from a Python List (after un-commenting code below, fix the indentation or code wont run)
+
+    # """ 
+    # remove_first_and_last(list_to_clean)
+
+    # html = ['<h1>', 'some_content', '</h1>']
+
+    # remove_first_and_last(html)
+    # => ['some content']
+
+    # html_2 = ['<h1>', 'some_content', 'more', '</h1>']
+
+    # remove_first_and_last(html_2)
+    # => ['some content', 'more']
+    # """
+
+    # # one, *two, three = [1, 2, 3]
+
+
+    # def remove_first_and_last(list_to_clean):
+    #     _, *content, _ = list_to_clean
+    #     return content
+
+    # html_2 = ['<h1>', 'some_content', 'more', '</h1>']
+    # print(remove_first_and_last(html_2))
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
