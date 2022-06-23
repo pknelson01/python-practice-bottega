@@ -10,7 +10,7 @@ Libraries to use:
 """
 
 import requests
-from bs4 import Beautifulsoup
+from bs4 import BeautifulSoup
 
 
 
@@ -33,7 +33,7 @@ def title_maker(links):
 
 
 r = requests.get('https://www.dailysmarty.com/topics/python')
-soup = Beautifulsoup(r.text, 'html.parser')
+soup = BeautifulSoup(r.text, 'html.parser')
 links = soup.find_all('a')
 titles = title_maker(links)
 
