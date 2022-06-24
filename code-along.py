@@ -1289,20 +1289,83 @@ use this in terminal: python3 code-along.py
     # html_2 = ['<h1>', 'some_content', 'more', '</h1>']
     # print(remove_first_and_last(html_2))
 
-# Overview of Dunder Methods in Python: __init__ (after un-commenting code below, fix the indentation or code wont run)
+# Overview of Dunder Methods in Python: __str__ , __init__ , __repr__(after un-commenting code below, fix the indentation or code wont run)
 
-class Invoice:
+    # class Invoice:
 
-    def __init__(self, client, total):
-        self.client = client
-        self.total = total
-    def __str__(self):
-        return f'Invoice from {self.client} for {self.total}'
+    #     def __init__(self, client, total):
+    #         self.client = client
+    #         self.total = total
+    #     def __str__(self):
+    #         return f'Invoice from {self.client} for {self.total}'
+    #     def __repr__(self):
+    #         return f'Invoice <value: client: {self.client}, total: {self.total}>'
 
-inv = Invoice('google', 500)
-print(str(inv))
+    # inv = Invoice('google', 500)
+    # print(str(inv))
+    # print(repr(inv))
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# How to Build a Custom Iterator Class in Python (after un-commenting code below, fix the indentation or code wont run)
+
+""" 
+An Iterator will give you complete control to navigate through the list.
+"""
+class Lineup:
+    def __init__(self, players):
+        self.players = players
+
+    def __iter__(self):
+        self.n = 0
+        return self
+
+    def __next__(self):
+        if self.n < (len(self.players) - 1):
+            player = self.players[self.n]
+            self.n += 1
+            return player
+        elif self.n == (len(self.players) - 1):
+            player = self.players[self.n]
+            self.n = 0
+            return player
+
+astros = [
+    'Springer',
+    'Bregman',
+    'Altuve',
+    'Correa',
+    'Reddick',
+    'Gonzalez',
+    'McCann',
+    'Davis',
+    'Tucker'
+]
+
+astros_lineup = Lineup(astros)
+process = iter(astros_lineup)
+
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+print(next(process))
+
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
