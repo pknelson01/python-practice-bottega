@@ -1418,23 +1418,28 @@ use this in terminal: python3 code-along.py
 
 # Class vs Instance Attributes in Python (after un-commenting code below, fix the indentation or code wont run)
 
-# class Website:
-#     def __init__(self, title):
-#         self.title = title
+    # # class Website:
+    # #     def __init__(self, title):
+    # #         self.title = title
 
-# ws = Website('My Website Title') 
-# print(ws.__dict__)
+    # # ws = Website('My Website Title') 
+    # # print(ws.__dict__)
 
-# ws_two = Website('My Awesome Website Title') 
-# print(ws_two.__dict__)
+    # # ws_two = Website('My Awesome Website Title') 
+    # # print(ws_two.__dict__)
 
-class DifferntWebsite:
-    title = 'My Class Title'
+    # class DifferntWebsite:
+    #     title = 'My Class Title'
 
-dw = DifferntWebsite()
-print(dw.__dict__)
+    # dw = DifferntWebsite()
+    # print(dw.title)
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+    # dw_two = DifferntWebsite()
+    # print(dw_two.title)
+
+# Introduction to Inheritance in Python (after un-commenting code below, fix the indentation or code wont run)
+
+
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
