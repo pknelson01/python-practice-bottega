@@ -1439,7 +1439,27 @@ use this in terminal: python3 code-along.py
 
 # Introduction to Inheritance in Python (after un-commenting code below, fix the indentation or code wont run)
 
+class User:
+    def __init__(self, email, first_name, last_name):
+        self.email = email
+        self.first_name = first_name
+        self.last_name = last_name
 
+    def greeting(self):
+        return f'Hi {self.first_name} {self.last_name}'
+
+class AdminUser(User):
+    def active_users(self):
+        return '541'
+
+parker = AdminUser('parker@devcamp.com', 'Parker', 'Nelson')
+
+ava = User('ava@devcamp.com', 'Ava', 'Neuenschwander')
+
+# print(ava.active_users())
+print(ava.greeting())
+print(parker.greeting())
+print(parker.active_users())
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
