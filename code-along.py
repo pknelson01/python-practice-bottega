@@ -1289,7 +1289,18 @@ use this in terminal: python3 code-along.py
     # html_2 = ['<h1>', 'some_content', 'more', '</h1>']
     # print(remove_first_and_last(html_2))
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# Overview of Dunder Methods in Python: __init__ (after un-commenting code below, fix the indentation or code wont run)
+
+class Invoice:
+
+    def __init__(self, client, total):
+        self.client = client
+        self.total = total
+    def __str__(self):
+        return f'Invoice from {self.client} for {self.total}'
+
+inv = Invoice('google', 500)
+print(str(inv))
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
