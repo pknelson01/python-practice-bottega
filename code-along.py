@@ -1461,9 +1461,25 @@ use this in terminal: python3 code-along.py
         # print(parker.greeting())
         # print(parker.active_users())
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# 1-on-1 with Trent (after un-commenting code below, fix the indentation or code wont run)
 
+class GuessTheSport:
+    def hint(one, two, three):
+        return f'hints: \n1.{one} \n2.{two} \n3.{three}'
+    
+print(GuessTheSport.hint('Bucket', 'Euro', 'Hesi'))
 
+def guess():
+    while True:
+        z = input('Please enter your guess: ')
+        x = z.lower()
+        if x == 'basketball':
+            print ('Correct!')
+            return False
+        else:
+            print('Incorrect! Please try again.\n')
+
+guess()
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
