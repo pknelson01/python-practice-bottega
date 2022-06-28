@@ -88,23 +88,23 @@
 
 # x_or single number
 
-class Solution:
+    # class Solution:
 
-    numbers = [
-        10,
-        11,
-        11,
-        10,
-        12
-    ]
+    #     numbers = [
+    #         10,
+    #         11,
+    #         11,
+    #         10,
+    #         12
+    #     ]
 
-    def num_sorter(nums):
-        x = 0
-        for i in nums:
-            x ^= i
-        return x
+    #     def num_sorter(nums):
+    #         x = 0
+    #         for i in nums:
+    #             x ^= i
+    #         return x
 
-    print(num_sorter(numbers))
+    #     print(num_sorter(numbers))
 
 
 
