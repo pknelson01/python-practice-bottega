@@ -64,3 +64,18 @@
 
     # build_by_self attempt #3
 
+class Solution:
+    def IsPalindrome(x):
+        print('Input word for Palindrome testing')
+        word = input()
+        new_word = word.lower()
+        word_two = ''
+
+        for letter in new_word:
+            if letter.isalnum() == True:
+                word_two += letter
+
+        return word_two == word_two[::-1]
+
+    # ENTER A PRINT STATEMENT BELOW: 
+    # ex print(IsPalindrome('R::;AceC:ar'))
