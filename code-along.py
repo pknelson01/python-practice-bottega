@@ -1463,25 +1463,51 @@ use this in terminal: python3 code-along.py
 
 # 1-on-1 with Trent (after un-commenting code below, fix the indentation or code wont run)
 
-class GuessTheSport:
-    def hint(one, two, three):
-        return f'hints: \n1.{one} \n2.{two} \n3.{three}'
-    
-print(GuessTheSport.hint('Bucket', 'Euro', 'Hesi'))
+        # class GuessTheSport:
+        #     def hint(one, two, three):
+        #         return f'hints: \n1.{one} \n2.{two} \n3.{three}'
+        
+        # print(GuessTheSport.hint('Bucket', 'Euro', 'Hesi'))
 
-def guess():
-    while True:
-        z = input('Please enter your guess: ')
-        x = z.lower()
-        if x == 'basketball':
-            print ('Correct!')
-            return False
-        else:
-            print('Incorrect! Please try again.\n')
+        # def guess():
+        #     while True:
+        #         z = input('Please enter your guess: ')
+        #         x = z.lower()
+        #         if x == 'basketball':
+        #             print ('Correct!')
+        #             return False
+        #         else:
+        #             print('Incorrect! Please try again.\n')
 
-guess()
+        # guess()
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# Palindrome (after un-commenting code below, fix the indentation or code wont run)
+
+    # """ 
+    # 1. isalnum
+    # """
+    # """ 
+    # 2. change to lower
+    # """
+    # """ 
+    # 3. x = 'racecar'
+    #    print(x == x[::-1])
+    # """
+
+    # # class Solution:
+    # def isPalindrome(s):
+    #     print('insert word for testing')
+    #     word = input()
+    #     new_word = word.lower()
+    #     word_2 = ''
+
+    #     for letter in new_word:
+    #         if letter.isalnum() == True:
+    #             word_2 += letter
+        
+    #     return word_2 == word_2[::-1]
+
+    # print(isPalindrome('Race:cAr'))
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
