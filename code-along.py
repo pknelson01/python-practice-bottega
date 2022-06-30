@@ -1509,11 +1509,60 @@ use this in terminal: python3 code-along.py
 
     # print(isPalindrome('Race:cAr'))
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# Polymorphism (after un-commenting code below, fix the indentation or code wont run)
+
+    # class Html:
+    #     def __init__(self, content):
+    #         self.content = content
+
+    #     def render(self):
+    #         raise NotImplementedError('Subclass must implement rander method')
+
+    # class Heading(Html):
+    #     def render(self):
+    #         return f'<h1>{self.content}</h1>'
+
+    # class Div(Html):
+    #     def render(self):
+    #         return f'<div>{self.content}</div>'
+
+    # tags = [
+    #     Div('some content'),
+    #     Heading('some heading'),
+    #     Div('another bit of content')
+    # ]
+
+    # for tag in tags:
+    #     print(tag.render())
+
+# Polymorphic functions (after un-commenting code below, fix the indentation or code wont run)
+
+    # class Heading:
+    #     def __init__(self, content):
+    #         self.content = content
+
+    #     def render(self):
+    #         return f'<h1>{self.content}</h1>'
 
 
+    # class Div:
+    #     def __init__(self, content):
+    #         self.content = content
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+    #     def render(self):
+    #         return f'<div>{self.content}</div>'
+
+
+    # div_one = Div('some content')
+    # heading = Heading('some heading')
+    # div_two = Div('another bit of content')
+
+    # def html_render(tag_objects):
+    #     print(tag_objects.render())
+
+    # html_render(div_one)
+    # html_render(heading)
+    # html_render(div_two)
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
