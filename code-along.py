@@ -1564,7 +1564,40 @@ use this in terminal: python3 code-along.py
     # html_render(heading)
     # html_render(div_two)
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# How to Install Dependencies for Flask Database and API Features (after un-commenting code below, fix the indentation or code wont run)
+
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_marshmallow import Marshmallow
+import os
+
+app = Flask(__name__)
+
+basedir = os.path.abspath(os.path.dirname(__file__))
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'app.sqlite') 
+db = SQLAlchemy(app)
+ma = Marshmallow(app)
+
+class Guide(db.Model):
+	id = db.Column(db.Integer, primary_key=True)
+	title = db.Column(db.String(100), unique=False)
+	content = db.Column(db.String(144), unique=False)
+
+	def __init__(self, title, content):
+		self.title = title
+		self.content = content
+
+class GuideSchema(ma.Schema):
+	class Meta:
+		fields = ('title', 'content')
+
+
+guide_schema = GuideSchema()
+guides_schema = GuideSchema(many=True)
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
