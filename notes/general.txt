@@ -18,3 +18,4 @@ str = wont really use inside of the course.
 init = initial dunder method to start your server
 next = wont really use inside of the course.
 """
+class = a blueprint for how you want your code to be laid out
