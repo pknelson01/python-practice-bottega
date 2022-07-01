@@ -30,20 +30,20 @@
 
     # build_by_self attempt #1
 
-    # class Solution:
-    #     def isPalindrome(x):
-    #         print('Insert word for testing')
-    #         word = input()
-    #         new_word = word.lower()
-    #         word_two = ''
+class Solution:
+    def isPalindrome(x):
+        print('Insert word for testing')
+        word = input()
+        new_word = word.lower()
+        word_two = ''
 
-    #         for letter in new_word:
-    #             if letter.isalnum() == True:
-    #                 word_two += letter
+        for letter in new_word:
+            if letter.isalnum() == True:
+                word_two += letter
 
-    #         return word_two == word_two[::-1]
+        return word_two == word_two[::-1]
 
-    #     print(isPalindrome('RaCe:Car'))
+    print(isPalindrome('RaCe:Car'))
 
     # build_by_self attempt #2
 
@@ -64,18 +64,18 @@
 
     # build_by_self attempt #3
 
-class Solution:
-    def IsPalindrome(x):
-        print('Input word for Palindrome testing')
-        word = input()
-        new_word = word.lower()
-        word_two = ''
+    # class Solution:
+    #     def IsPalindrome(x):
+    #         print('Input word for Palindrome testing')
+    #         word = input()
+    #         new_word = word.lower()
+    #         word_two = ''
 
-        for letter in new_word:
-            if letter.isalnum() == True:
-                word_two += letter
+    #         for letter in new_word:
+    #             if letter.isalnum() == True:
+    #                 word_two += letter
 
-        return word_two == word_two[::-1]
+    #         return word_two == word_two[::-1]
 
-    # ENTER A PRINT STATEMENT BELOW: 
-    # ex print(IsPalindrome('R::;AceC:ar'))
+    #     # ENTER A PRINT STATEMENT BELOW: 
+    #     # ex print(IsPalindrome('R::;AceC:ar'))
