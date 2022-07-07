@@ -81,3 +81,5 @@ db.books.find(
     "authors.name": 1
   }
 ).pretty()
+
+db.books.find({ reviews: { $exists: true } })

@@ -1599,7 +1599,40 @@ use this in terminal: python3 code-along.py
     # if __name__ == '__main__':
     # app.run(debug=True)
 
-#  (after un-commenting code below, fix the indentation or code wont run)
+# Get the Average from a List in Python (after un-commenting code below, fix the indentation or code wont run)
+
+    # # my attempt
+
+    # def mean():
+    #     num_list = [1, 2, 3, 4, 5, 6] 
+    #     num_list_total = num_list[0] + num_list[1] + num_list[2] + num_list[3] + num_list[4] + num_list[5]
+    #     num_list_average = num_list_total / len(num_list)
+    #     return num_list_average
+
+    # print(mean())
+
+    # # the better way: it doesn't have a hardcoded amount of numbers in the list
+
+    # def Average(num_list):
+    #     added = 0
+    #     for i in range(len(num_list)):
+    #         added += num_list[i]
+    #     average = added/len(num_list)
+    #     return average
+
+    # num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # average = Average(num_list)
+
+    # print(f"Average =  ", average)
+
+    # # the best way
+
+    # lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    # def average(lst):
+    #     return sum(lst) / len(lst)
+
+    # print(average(lst))
 
 #  (after un-commenting code below, fix the indentation or code wont run)
 
