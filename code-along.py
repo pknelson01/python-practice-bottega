@@ -986,7 +986,6 @@ use this in terminal: python3 code-along.py
     # print (heading_generator('Greeting', '1'))
     # print (heading_generator('Hello There', '3'))
 
-
 # Overview of Python Conditionals (after un-commenting code below, fix the indentation or code wont run)
 
     # age = 100
