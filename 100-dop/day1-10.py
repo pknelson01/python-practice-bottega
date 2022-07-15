@@ -55,21 +55,21 @@
 # Day 2
 # STARTER CHALLENGE
 
-def total():
-    bill = 0
-    friends = 0
-    tip = 0
-    total = 0
+    # def total():
+    #     bill = 0
+    #     friends = 0
+    #     tip = 0
+    #     total = 0
 
-    print('Welcome to the Tip Calculator')
-    answer = float(input("What was the total bill? "))
-    bill += answer
-    answer_two = float(input(f"How many ways should we split the bill of ${bill}? "))
-    friends += answer_two
-    answer_three = float(input(f"What percentage tip would you like to give? "))
-    tip += answer_three
-    answer_four = round(bill / friends * 1.15, 2)
-    total += answer_four
-    print(f'Each person should pay ${total}')
+    #     print('Welcome to the Tip Calculator')
+    #     answer = float(input("What was the total bill? "))
+    #     bill += answer
+    #     answer_two = float(input(f"How many ways should we split the bill of ${bill}? "))
+    #     friends += answer_two
+    #     answer_three = float(input(f"What percentage tip would you like to give? "))
+    #     tip += answer_three
+    #     answer_four = round(bill / friends * 1.15, 2)
+    #     total += answer_four
+    #     print(f'Each person should pay ${total}')
 
-total()
+    # total()
