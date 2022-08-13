@@ -252,7 +252,12 @@ _____________________________
             self.collectable_counter += 1
             self.han_blaster += 1
             self.level_four()
-            print('You found a collectable!')
+            print('''
+ __________________________
+|                          |
+| You found a collectable! |
+|__________________________|
+            ''')
         if answer == 2:
             print('''
  ____________________________________________________________________________
@@ -274,6 +279,13 @@ _____________________________
 |_______________________________|
         '''))
         if answer == 1:
+            print('''
+_____________
+|             |
+|  YOU DIED!  |
+|_____________|
+
+            ''')
             self.done = True
         if answer == 2:
             self.level_five()
@@ -308,6 +320,13 @@ _____________________________
         if answer == 1:
             self.level_seven()
         if answer == 2:
+            print('''
+ _____________
+|             |
+|  YOU DIED!  |
+|_____________|
+
+            ''')
             self.done = True
 
 
